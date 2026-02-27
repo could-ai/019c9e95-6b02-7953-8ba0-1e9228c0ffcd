@@ -44,7 +44,7 @@ class _MyBookingsScreenState extends State<MyBookingsScreen> {
                         Text('Status: ${booking.status}'),
                       ],
                     ),
-                    trailing: Text('$${booking.totalPrice}'),
+                    trailing: Text('\$${booking.totalPrice}'),
                   ),
                 );
               },

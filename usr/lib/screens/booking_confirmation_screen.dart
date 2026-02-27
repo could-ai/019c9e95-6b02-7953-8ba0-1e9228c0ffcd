@@ -27,7 +27,7 @@ class BookingConfirmationScreen extends StatelessWidget {
             Text('Train: ${train.name}'),
             Text('From: ${train.fromStation} to ${train.toStation}'),
             Text('Seats: ${seats.join(', ')}'),
-            Text('Total Price: $${train.price * seats.length}'),
+            Text('Total Price: \$${train.price * seats.length}'),
             const SizedBox(height: 40),
             ElevatedButton(
               onPressed: () => Navigator.pushNamedAndRemoveUntil(context, '/home', (route) => false),

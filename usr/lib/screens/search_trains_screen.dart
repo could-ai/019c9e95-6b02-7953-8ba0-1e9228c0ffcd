@@ -56,7 +56,7 @@ class _SearchTrainsScreenState extends State<SearchTrainsScreen> {
                     child: ListTile(
                       title: Text(train.name),
                       subtitle: Text('${train.fromStation} to ${train.toStation}'),
-                      trailing: Text('$${train.price}'),
+                      trailing: Text('\$${train.price}'),
                       onTap: () => Navigator.pushNamed(
                         context,
                         '/select-seat',
