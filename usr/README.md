@@ -1,16 +1,36 @@
-# couldai_user_app
+# Railway Reservation System
 
-A new Flutter project.
+A fully functional Flutter web application for railway ticket booking and reservation management.
+
+## Features
+
+- User authentication (login)
+- Search for trains by route
+- Select and book seats
+- View booking confirmations
+- Manage personal bookings
+- Responsive design for web
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This app uses mock data for demonstration. To enable full backend functionality:
 
-A few resources to get you started if this is your first Flutter project:
+1. Connect to Supabase for database and authentication
+2. Deploy Edge Functions for API endpoints
+3. Configure real-time updates
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Architecture
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Frontend**: Flutter widgets with Material Design
+- **State Management**: Local state with setState (can be upgraded to Provider/Bloc)
+- **Data**: Mock services (replace with Supabase when connected)
+- **Models**: Train, Booking, User classes
+
+## Screens
+
+- Login Screen
+- Home Screen
+- Search Trains Screen
+- Select Seat Screen
+- Booking Confirmation Screen
+- My Bookings Screen
